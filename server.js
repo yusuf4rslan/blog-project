@@ -1,8 +1,5 @@
 const express = require("express");
 const path = require("path");
-// Express'i çalıştırarak 'app' adında bir ana uygulama nesnesi oluşturuyoruz.
-// Bütün sunucu mantığımız, rotalarımız ve ayarlarımız bu 'app' nesnesi üzerinden yönetilecek.
-// Kısacası bu, bizim sunucumuzun ta kendisi. Binamızın temelini attık.
 const app = express();
 const BlogManager = require("./blogManager");
 
