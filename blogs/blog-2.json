@@ -1,0 +1,7 @@
+{
+  "id": "2",
+  "title": "Backend Güvenliği: Kimlik Doğrulama ve Yetkilendirme Farkı",
+  "content": "Authentication (Kimlik Doğrulama) ve Authorization (Yetkilendirme) sıkça karıştırılır ama farklı şeylerdir.\n\nAuthentication, 'Sen kimsin?' sorusunun cevabıdır. Kullanıcının, gönderdiği e-posta ve şifre ile kim olduğunu kanıtlamasıdır. Bir binaya girerken kimlik kartınızı göstermek gibidir.\n\nAuthorization ise 'Neler yapmaya iznin var?' sorusunun cevabıdır. Binaya girdikten sonra, kimliğinizdeki yetkiye göre sadece belirli katlara çıkabilmeniz gibidir. Normal bir kullanıcı bir blogu sadece okuyabilirken (yetkisi bu), bir admin hem okuyabilir, hem yazabilir, hem de silebilir.\n\nİyi bir backend, önce kullanıcının kimliğini doğrular (Authentication), sonra da sadece izinli olduğu işlemleri yapabildiğinden emin olur (Authorization).",
+  "date": "2025-07-29",
+  "readCount": 0
+}

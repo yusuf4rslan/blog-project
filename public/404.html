@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Kayıp Sinyal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #4A90E2;
+      --background-color: #1a1a1a;
+      --text-color: #EAEAEA;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .error-code {
+      font-size: 12rem;
+      font-weight: 700;
+      margin: 0;
+      background: linear-gradient(135deg, #5D9CEC, #4A90E2);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 15px rgba(74, 144, 226, 0.4);
+      animation: float 4s ease-in-out infinite;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      opacity: 0.8;
+    }
+
+    .home-button {
+      display: inline-block;
+      padding: 15px 35px;
+      background-color: var(--main-color);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 50px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 5px 20px rgba(74, 144, 226, 0.35);
+    }
+
+    .home-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(74, 144, 226, 0.5);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="error-code">404</h1>
+    <h2>Sayfa Bulunamadı</h2>
+    <p>Görünüşe göre bu sayfa dijital evrende bir yerlerde kaybolmuş.</p>
+    <a href="/" class="home-button">Ana Üsse Geri Dön</a>
+  </div>
+</body>
+
+</html>

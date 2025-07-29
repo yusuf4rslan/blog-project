@@ -1,0 +1,7 @@
+{
+  "id": "3",
+  "title": "Neden Node.js? Asenkron Programlamanın Gücü",
+  "content": "Node.js'i diğer backend dillerinden ayıran en önemli özellik, 'asenkron' ve 'non-blocking' (engellemeyen) yapısıdır. Peki bu ne demek?\n\nBunu bir restorandaki garson gibi düşünün. Senkron çalışan bir garson, bir masadan sipariş alır, mutfağa gider, yemeğin hazırlanmasını bekler, yemeği masaya götürür ve ANCAK BUNDAN SONRA diğer masaya gider. Bu çok verimsizdir.\n\nAsenkron çalışan Node.js garsonu ise siparişi alır, mutfağa iletir ve yemeğin hazırlanmasını beklemeden HEMEN diğer masadan sipariş almaya gider. Mutfaktan 'yemek hazır' zili çaldığında, hangi masanın yemeği hazırsa onu alıp servis eder. Bu sayede aynı anda yüzlerce müşteriye (isteğe) çok az kaynakla ve bekleme yapmadan hizmet edebilir. İşte bu yüzden Node.js, anlık mesajlaşma uygulamaları ve yoğun API'ler için harikadır.",
+  "date": "2025-07-29",
+  "readCount": 0
+}

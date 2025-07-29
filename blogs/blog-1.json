@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "title": "İyi Bir Backend'in Sırrı: RESTful API Nedir?",
+  "content": "Bir backend yazarken sıkça duyduğumuz 'RESTful API' terimi, aslında sunucu ile istemci arasında kurulan bir iletişim standardıdır. Temel amacı, kuralları net ve anlaşılır hale getirmektir.\n\nBirkaç temel prensibi vardır:\n1. Kaynaklar (Resources): Her veri bir kaynaktır ve kendine ait bir adresi (URL) vardır. Örneğin, bizim projemizdeki '/blogs' bir kaynaktır.\n2. HTTP Metotları: Kaynaklar üzerinde ne işlem yapacağımızı (okuma, yazma, silme) HTTP metotları ile belirtiriz. GET ile okur, POST ile yazar, DELETE ile sileriz.\n3. Durumsuzluk (Stateless): Sunucu, iki istek arasında kullanıcıyı hatırlamaz. Her istek, sanki ilk defa yapılıyormuş gibi tüm bilgiyi içermelidir.\n\nBu kurallara uymak, API'mizi daha öngörülebilir, ölçeklenebilir ve yönetilebilir yapar. Şu an yazdığımız blog projesi de aslında bu prensipleri uyguluyor!",
+  "date": "2025-07-29",
+  "readCount": 0
+}
